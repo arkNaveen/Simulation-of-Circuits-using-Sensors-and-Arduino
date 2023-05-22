@@ -38,7 +38,7 @@ void loop()
     digitalWrite(3, HIGH);
     digitalWrite(4, LOW);
   }
-  if (celsius >= roomTemp + 20) {
+  if (celsius >= roomTemp + 10) {
     digitalWrite(2, HIGH);
     digitalWrite(3, LOW);
     digitalWrite(4, LOW);
